@@ -133,3 +133,4 @@
 **注意**
 - checkbox的默认颜色，在不同平台不一样。微信小程序、360小程序是绿色的，字节跳动小程序为红色，其他平台是蓝色的。更改颜色使用color属性。
 - 如需调节checkbox大小，可通过css的scale方法调节，如缩小到70%`style="transform:scale(0.7)"`
+- 自定义checkbox样式，可通过在App.vue中<style></style>设置页面公共样式。
